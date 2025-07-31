@@ -8,3 +8,7 @@ def test_prime_factors():
 def test_prime_factors_of_1():
     prime_factor = PrimeFactors()
     assert prime_factor.of(1) == []
+
+def test_prime_factors_of_2():
+    prime_factor = PrimeFactors()
+    assert prime_factor.of(2) == [2]
