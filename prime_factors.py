@@ -9,5 +9,4 @@ class PrimeFactors:
                 factors.append(divisor)
                 num //= divisor
             divisor += 1
-            #adf
         return factors
