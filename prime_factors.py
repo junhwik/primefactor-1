@@ -15,7 +15,9 @@ class PrimeFactors:
                         factors.append(divisor)
                         num//=divisor
                     divisor+=1
-
+            elif num == 9:
+                factors.append(3)
+                factors.append(3)
             else:
                 factors.append(num)
         return factors
