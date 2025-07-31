@@ -12,3 +12,7 @@ def test_prime_factors_of_1():
 def test_prime_factors_of_2():
     prime_factor = PrimeFactors()
     assert prime_factor.of(2) == [2]
+
+def test_prime_factors_of_3():
+    prime_factor = PrimeFactors()
+    assert prime_factor.of(3) == [3]
